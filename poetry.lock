@@ -1,0 +1,34 @@
+[[package]]
+category = "main"
+description = "Fast Autocomplete using Directed Word Graph"
+name = "fast-autocomplete"
+optional = false
+python-versions = "*"
+version = "0.6.0"
+
+[package.dependencies]
+python-Levenshtein = ">=0.12.0"
+
+[[package]]
+category = "main"
+description = "Python extension for computing string edit distances and similarities."
+name = "python-levenshtein"
+optional = false
+python-versions = "*"
+version = "0.12.0"
+
+[package.dependencies]
+setuptools = "*"
+
+[metadata]
+content-hash = "839c6e4361b82629340d61a82075de893074b0fa8b5c5c9c32546e78dcd5a4d5"
+python-versions = "^3.8"
+
+[metadata.files]
+fast-autocomplete = [
+    {file = "fast-autocomplete-0.6.0.tar.gz", hash = "sha256:62088635600627225262bbf2c848996d5da78b1d9b452930429249822032eb2d"},
+    {file = "fast_autocomplete-0.6.0-py3-none-any.whl", hash = "sha256:e5be6801458395c243d938c541d61f1a6b8e2bd0dbf8319ac3c723de3a88614d"},
+]
+python-levenshtein = [
+    {file = "python-Levenshtein-0.12.0.tar.gz", hash = "sha256:033a11de5e3d19ea25c9302d11224e1a1898fe5abd23c61c7c360c25195e3eb1"},
+]
